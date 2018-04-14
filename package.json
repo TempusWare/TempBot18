@@ -1,0 +1,14 @@
+{
+  "name": "tempbot18",
+  "version": "1.0.0",
+  "description": "2018 Rewrite of TempBot",
+  "main": "tempbot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "TempusWare",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^11.3.2"
+  }
+}
