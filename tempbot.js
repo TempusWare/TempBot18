@@ -14,7 +14,7 @@ client.login(process.env.BOT_TOKEN);
 
 // Server IDs
 var serverDeCipher = "261286578385584138";
-var serverWOR = "434153569529233458";
+var serverWOR = "432479194912391169";
 
 // Arrays
 // Rock Paper Scissors
