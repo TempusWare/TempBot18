@@ -1,11 +1,16 @@
 const Discord = require ("discord.js");
 const client = new Discord.Client();
+
+// Set - as PREFIX
 const PREFIX = "-";
 
 client.on ("ready", () => {
   console.log ("TempBot v2 Started");
   client.user.setActivity ("Boop Beep | -help");
 });
+
+// Token
+client.login(process.env.BOT_TOKEN);
 
 // Server IDs
 var serverDeCipher = "261286578385584138";
